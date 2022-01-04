@@ -3,7 +3,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     background-image: url("wallpaperbetter.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
     font-weight: bold;
     color: white;
     text-align: center;
