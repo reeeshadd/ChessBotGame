@@ -1,16 +1,18 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <div id="board"></div>
+  <style>
+    .highlight { box-shadow: inset 0px 0px 3px 3px #ff3300; }
+    .mate { box-shadow: inset 0px 0px 5px 5px red; }
+  </style>
+  <script>
 
-<div id="board"></div>
-<style>
-  .highlight { box-shadow: inset 0px 0px 3px 3px #ff3300; }
-  .mate { box-shadow: inset 0px 0px 5px 5px red; }
-</style>
-<script>
-
-  /*******************************************\
-    =========================================
-                    BMCP v2.0
+    /*******************************************\
+      =========================================
+                      BMCP v2.0
     =========================================
 
            Bare Minimum Chess Program
@@ -569,3 +571,4 @@
   drawBoard();
 
 </script>
+</html>
